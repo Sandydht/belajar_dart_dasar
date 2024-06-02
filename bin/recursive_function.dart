@@ -16,10 +16,21 @@ int factorialRecursive(int value) {
   }
 }
 
+void loop(int value) {
+  if (value == 0) {
+    print('Selesai');
+  } else {
+    print('Perulangan ke-$value');
+    loop(value - 1);
+  }
+}
+
 void main() {
   var factorialLoopResult = factorialLoop(10);
   print(factorialLoopResult);
 
   var factorialRecursiveResult = factorialRecursive(10);
   print(factorialRecursiveResult);
+
+  loop(100000); // error StackOverflow => 100000
 }
