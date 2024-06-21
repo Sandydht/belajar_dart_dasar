@@ -16,10 +16,10 @@
 # Operasi ``` || ```
 | Nilai 1 | Operator | Nilai 2 | Hasil |
 | ------- | -------- | ------- | ----- |
-| `true` | || | `true` | `true` |
-| `true` | || | `false` | `true` |
-| `false` | || | `true` | `true` |
-| `false` | || | `false` | `false` | 
+| `true` | \|\| | `true` | `true` |
+| `true` | \|\| | `false` | `true` |
+| `false` | \|\| | `true` | `true` |
+| `false` | \|\| | `false` | `false` | 
 
 # Operasi ``` ! ```
 | Operator | Nilai 2 | Hasil |
