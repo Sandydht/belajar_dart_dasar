@@ -19,3 +19,10 @@
 * Visual Studio Code: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 * Intellij IDEA: [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/)
 * Android Studio: [https://developer.android.com/studio/](https://developer.android.com/studio/)
+
+# Membuat Project
+* Untuk membuat project Dart kita bisa gunakan perintah: ``` dart create nama_project ```
+
+# Membuka Project
+* Saat membuat project, secara otomatis akan dibuat folder baru dengan nama sesuai dengan nama projectnya
+* Selanjutnya, silahkan buka project tersebut menggunakan Text Editor yang kita gunakan
